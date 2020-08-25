@@ -1,0 +1,278 @@
+2020-08-25 16:53:58,192 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:53:58,599 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:53:58,723 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:53:58,860 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:54:10,116 - framework - ERROR - finding element timeout!, details
+Traceback (most recent call last):
+  File "E:\软件测试\问答平台\wecenter_test\common\page.py", line 23, in find_element
+    WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\wy\anaconda3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-08-25 16:54:10,117 - framework - INFO - success
+2020-08-25 16:54:17,834 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:54:18,232 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:54:18,353 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:54:18,449 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:54:19,082 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:19,111 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:54:19,131 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:19,150 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:54:19,150 - framework - INFO - 请输入正确的帐号或密码
+2020-08-25 16:54:26,249 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:54:26,608 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:54:26,731 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:54:26,840 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:54:27,455 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:27,486 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 16:54:27,505 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:27,525 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 16:54:27,525 - framework - INFO - 请输入正确的密码
+2020-08-25 16:54:35,123 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:54:35,634 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:54:35,756 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:54:35,895 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:54:36,514 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:36,541 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:54:36,562 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:36,588 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:54:36,588 - framework - INFO - 请输入正确的帐号
+2020-08-25 16:54:43,856 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:54:44,246 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:54:44,352 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:54:44,454 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:54:45,092 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:45,121 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:54:45,143 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:45,162 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:54:45,162 - framework - INFO - 请输入正确的帐号或密码
+2020-08-25 16:54:52,390 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:54:52,802 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:54:52,899 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:54:53,006 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:54:53,656 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:53,684 - framework - INFO - login failed : 请填写账号
+2020-08-25 16:54:53,706 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:54:53,723 - framework - INFO - login failed : 请填写账号
+2020-08-25 16:54:53,723 - framework - INFO - 请填写账号
+2020-08-25 16:55:01,175 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:55:01,670 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:55:01,786 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:55:01,904 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:55:02,537 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:55:02,565 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:55:02,586 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:55:02,605 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:55:02,605 - framework - INFO - 请输入正确的帐号
+2020-08-25 16:56:07,273 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:56:07,793 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:56:07,930 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:56:08,043 - framework - INFO - The page of test_login_1___admin____admin123_______success__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:56:19,225 - framework - ERROR - finding element timeout!, details
+Traceback (most recent call last):
+  File "E:\软件测试\问答平台\wecenter_test\common\page.py", line 23, in find_element
+    WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\wy\anaconda3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-08-25 16:56:19,225 - framework - INFO - success
+2020-08-25 16:56:26,215 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:56:26,692 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:56:26,910 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:56:27,031 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:56:27,656 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:27,687 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:56:27,708 - framework - INFO - The page of test_login_2___admin________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:27,725 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:56:27,725 - framework - INFO - 请输入正确的帐号或密码
+2020-08-25 16:56:35,844 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:56:36,242 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:56:36,372 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:56:36,501 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:56:37,234 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:37,271 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 16:56:37,290 - framework - INFO - The page of test_login_3___admin____am____请输入正确的密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:37,308 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 16:56:37,309 - framework - INFO - 请输入正确的密码
+2020-08-25 16:56:44,829 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:56:45,193 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:56:45,312 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:56:45,426 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:56:46,039 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:46,070 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:56:46,091 - framework - INFO - The page of test_login_4___adm____admin123_______请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:46,113 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:56:46,113 - framework - INFO - 请输入正确的帐号
+2020-08-25 16:56:53,936 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:56:54,298 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:56:54,409 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:56:54,505 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:56:55,147 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:55,176 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:56:55,197 - framework - INFO - The page of test_login_5___admi________请输入正确的帐号或密码__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:56:55,217 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 16:56:55,217 - framework - INFO - 请输入正确的帐号或密码
+2020-08-25 16:57:02,618 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:57:03,032 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:57:03,132 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:57:03,240 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:57:03,862 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:57:03,890 - framework - INFO - login failed : 请填写账号
+2020-08-25 16:57:03,916 - framework - INFO - The page of test_login_6___________请填写账号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:57:03,939 - framework - INFO - login failed : 请填写账号
+2020-08-25 16:57:03,939 - framework - INFO - 请填写账号
+2020-08-25 16:57:12,170 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 16:57:12,620 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 16:57:12,745 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 16:57:12,857 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 16:57:13,471 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:57:13,501 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:57:13,524 - framework - INFO - The page of test_login_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (__main__.TestDemo) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 16:57:13,544 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 16:57:13,544 - framework - INFO - 请输入正确的帐号
+2020-08-25 17:28:12,959 - framework - INFO - The page of test_post_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:28:13,362 - framework - INFO - The page of test_post_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:28:13,520 - framework - INFO - The page of test_post_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:28:13,646 - framework - INFO - The page of test_post_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:28:24,884 - framework - ERROR - finding element timeout!, details
+Traceback (most recent call last):
+  File "E:\软件测试\问答平台\wecenter_test\common\page.py", line 23, in find_element
+    WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\wy\anaconda3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-08-25 17:28:24,886 - framework - INFO - success
+2020-08-25 17:28:32,403 - framework - INFO - The page of test_post_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:28:32,780 - framework - INFO - The page of test_post_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:28:32,923 - framework - INFO - The page of test_post_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:28:33,043 - framework - INFO - The page of test_post_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:28:33,674 - framework - INFO - The page of test_post_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:28:33,730 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 17:28:33,756 - framework - INFO - The page of test_post_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:28:33,777 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 17:28:33,778 - framework - INFO - 请输入正确的帐号或密码
+2020-08-25 17:28:42,027 - framework - INFO - The page of test_post_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:28:42,452 - framework - INFO - The page of test_post_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:28:42,609 - framework - INFO - The page of test_post_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:28:42,725 - framework - INFO - The page of test_post_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:28:43,349 - framework - INFO - The page of test_post_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:28:43,379 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 17:28:43,403 - framework - INFO - The page of test_post_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:28:43,425 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 17:28:43,425 - framework - INFO - 请输入正确的密码
+2020-08-25 17:28:52,414 - framework - INFO - The page of test_post_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:28:53,099 - framework - INFO - The page of test_post_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:28:53,218 - framework - INFO - The page of test_post_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:28:53,359 - framework - INFO - The page of test_post_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:28:53,983 - framework - INFO - The page of test_post_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:28:54,011 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:28:54,031 - framework - INFO - The page of test_post_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:28:54,052 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:28:54,052 - framework - INFO - 请输入正确的帐号
+2020-08-25 17:29:01,827 - framework - INFO - The page of test_post_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:29:02,243 - framework - INFO - The page of test_post_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:29:02,366 - framework - INFO - The page of test_post_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:29:02,465 - framework - INFO - The page of test_post_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:29:03,095 - framework - INFO - The page of test_post_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:29:03,122 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 17:29:03,143 - framework - INFO - The page of test_post_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:29:03,162 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 17:29:03,162 - framework - INFO - 请输入正确的帐号或密码
+2020-08-25 17:29:10,663 - framework - INFO - The page of test_post_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:29:11,057 - framework - INFO - The page of test_post_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:29:11,163 - framework - INFO - The page of test_post_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:29:11,275 - framework - INFO - The page of test_post_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:29:11,898 - framework - INFO - The page of test_post_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:29:11,930 - framework - INFO - login failed : 请填写账号
+2020-08-25 17:29:11,954 - framework - INFO - The page of test_post_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:29:11,977 - framework - INFO - login failed : 请填写账号
+2020-08-25 17:29:11,978 - framework - INFO - 请填写账号
+2020-08-25 17:29:20,799 - framework - INFO - The page of test_post_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:29:21,205 - framework - INFO - The page of test_post_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:29:21,327 - framework - INFO - The page of test_post_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:29:21,442 - framework - INFO - The page of test_post_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:29:22,066 - framework - INFO - The page of test_post_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:29:22,096 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:29:22,119 - framework - INFO - The page of test_post_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:29:22,142 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:29:22,142 - framework - INFO - 请输入正确的帐号
+2020-08-25 17:42:10,894 - framework - INFO - The page of <wecenter_test.page.page_login.Login object at 0x000001BC9769D358> had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:42:18,698 - framework - INFO - The page of <wecenter_test.page.page_login.Login object at 0x000001BC976C1B00> had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:44:22,608 - framework - INFO - The page of <wecenter_test.page.page_login.Login object at 0x000001D10B6301D0> had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:47:56,533 - framework - INFO - The page of test_signin_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:47:57,007 - framework - INFO - The page of test_signin_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:47:57,135 - framework - INFO - The page of test_signin_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:47:57,271 - framework - INFO - The page of test_signin_1___admin____admin123_______success__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:47:58,904 - framework - ERROR - finding element timeout!, details
+Traceback (most recent call last):
+  File "E:\软件测试\问答平台\wecenter_test\common\page.py", line 23, in find_element
+    WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\wy\anaconda3\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\wy\anaconda3\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "C:\Users\wy\anaconda3\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 148, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+2020-08-25 17:47:58,917 - framework - INFO - success
+2020-08-25 17:48:06,550 - framework - INFO - The page of test_signin_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:48:06,973 - framework - INFO - The page of test_signin_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:48:07,073 - framework - INFO - The page of test_signin_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:48:07,174 - framework - INFO - The page of test_signin_2___admin________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:48:17,700 - framework - ERROR - finding element timeout!, details
+Traceback (most recent call last):
+  File "E:\软件测试\问答平台\wecenter_test\common\page.py", line 23, in find_element
+    WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\wy\anaconda3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-08-25 17:48:17,701 - framework - INFO - success
+2020-08-25 17:48:24,934 - framework - INFO - The page of test_signin_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:48:25,343 - framework - INFO - The page of test_signin_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:48:25,517 - framework - INFO - The page of test_signin_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:48:25,638 - framework - INFO - The page of test_signin_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:48:26,260 - framework - INFO - The page of test_signin_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:26,293 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 17:48:26,315 - framework - INFO - The page of test_signin_3___admin____am____请输入正确的密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:26,336 - framework - INFO - login failed : 请输入正确的密码
+2020-08-25 17:48:26,337 - framework - INFO - 请输入正确的密码
+2020-08-25 17:48:34,301 - framework - INFO - The page of test_signin_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:48:34,751 - framework - INFO - The page of test_signin_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:48:34,881 - framework - INFO - The page of test_signin_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:48:35,026 - framework - INFO - The page of test_signin_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:48:35,659 - framework - INFO - The page of test_signin_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:35,686 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:48:35,709 - framework - INFO - The page of test_signin_4___adm____admin123_______请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:35,729 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:48:35,729 - framework - INFO - 请输入正确的帐号
+2020-08-25 17:48:43,216 - framework - INFO - The page of test_signin_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:48:43,580 - framework - INFO - The page of test_signin_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:48:43,713 - framework - INFO - The page of test_signin_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:48:43,818 - framework - INFO - The page of test_signin_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:48:44,446 - framework - INFO - The page of test_signin_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:44,474 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 17:48:44,496 - framework - INFO - The page of test_signin_5___admi________请输入正确的帐号或密码__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:44,517 - framework - INFO - login failed : 请输入正确的帐号或密码
+2020-08-25 17:48:44,517 - framework - INFO - 请输入正确的帐号或密码
+2020-08-25 17:48:52,508 - framework - INFO - The page of test_signin_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:48:52,922 - framework - INFO - The page of test_signin_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:48:53,029 - framework - INFO - The page of test_signin_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:48:53,135 - framework - INFO - The page of test_signin_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:48:53,757 - framework - INFO - The page of test_signin_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:53,786 - framework - INFO - login failed : 请填写账号
+2020-08-25 17:48:53,808 - framework - INFO - The page of test_signin_6___________请填写账号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:48:53,829 - framework - INFO - login failed : 请填写账号
+2020-08-25 17:48:53,829 - framework - INFO - 请填写账号
+2020-08-25 17:49:01,571 - framework - INFO - The page of test_signin_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '/html/body/div[1]/div/div[4]/a[1]')
+2020-08-25 17:49:01,995 - framework - INFO - The page of test_signin_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-name"]')
+2020-08-25 17:49:02,140 - framework - INFO - The page of test_signin_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="aw-login-user-password"]')
+2020-08-25 17:49:02,282 - framework - INFO - The page of test_signin_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_submit"]')
+2020-08-25 17:49:02,912 - framework - INFO - The page of test_signin_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:49:02,940 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:49:02,962 - framework - INFO - The page of test_signin_7___ahiyqu9d____791hxkua9ue____请输入正确的帐号__ (test_login.TestPost) had already find the element ('xpath', '//*[@id="login_form"]/ul/li[3]')
+2020-08-25 17:49:02,983 - framework - INFO - login failed : 请输入正确的帐号
+2020-08-25 17:49:02,983 - framework - INFO - 请输入正确的帐号
